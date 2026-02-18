@@ -1363,43 +1363,45 @@ body {
 
     .contact-content {
         grid-template-columns: 1fr;
-        gap: 30px;
+        gap: 25px;
     }
 
     .contact-info {
-        gap: 20px;
-    }
-
-    .contact-item {
-        padding: 18px;
         gap: 15px;
     }
 
+    .contact-item {
+        padding: 16px;
+        gap: 12px;
+    }
+
     .contact-item i {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
+        min-width: 35px;
+        text-align: center;
     }
 
     .contact-item h3 {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
 
     .contact-item p {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
 
     .contact-form {
-        gap: 12px;
+        gap: 10px;
     }
 
     .contact-form input,
     .contact-form textarea {
-        padding: 12px 15px;
-        font-size: 1rem;
+        padding: 11px 12px;
+        font-size: 0.95rem;
     }
 
     .contact-form button {
-        padding: 14px 20px;
-        font-size: 0.95rem;
+        padding: 13px 18px;
+        font-size: 0.9rem;
     }
 
     .footer {
@@ -1427,7 +1429,7 @@ body {
     }
 }
 
-/* ===== Optimisation Extra Small Phones (< 360px) ===== */
+/* === Optimisation Extra Small (< 360px) === */
 @media (max-width: 360px) {
     .nav-logo h1 {
         font-size: 0.9rem;
@@ -1464,5 +1466,29 @@ body {
 
     .project-icon {
         font-size: 2rem;
+    }
+
+    .timeline-item {
+        margin-bottom: 25px;
+    }
+
+    .timeline-marker {
+        width: 14px;
+        height: 14px;
+        margin-right: 15px;
+    }
+
+    .timeline-content {
+        padding: 14px;
+    }
+
+    .contact-item {
+        padding: 12px;
+        gap: 10px;
+    }
+
+    .contact-item i {
+        font-size: 1.3rem;
+        min-width: 30px;
     }
 }
